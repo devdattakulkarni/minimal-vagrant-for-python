@@ -15,17 +15,20 @@ That's why I created this.
 Usage:
 
 git clone https://github.com/devdattakulkarni/minimal-vagrant-for-python.git vagrant-devel
+
 cd vagrant-devel
 
-# environment variables to map the directories on the host
-# within the VM
-# solum code from your host is mapped to /solum
-# python-solumclient code is mapped to /python-solumclient
+environment variables to map the directories on the host
+within the VM
+solum code from your host is mapped to /solum
+python-solumclient code is mapped to /python-solumclient
 
-set SOLUM=<path to local solum code>
-set SOLUMCLIENT=<path to local python-solumclient code>
+export SOLUM=path to local solum code
+
+export SOLUMCLIENT=path to local python-solumclient code
 
 vagrant up
+
 vagrant ssh
 
 Tested with Vagrant 1.6.3 and Virtualbox 4.3.12 r93733
