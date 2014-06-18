@@ -16,6 +16,8 @@ That's why I created this.
 
 Usage:
 
+To run tox py27 and pep8 do the following:
+
 git clone https://github.com/devdattakulkarni/minimal-vagrant-for-python.git vagrant-devel
 
 cd vagrant-devel
@@ -27,6 +29,14 @@ export SOLUMCLIENT=path to local python-solumclient code
 vagrant up
 
 vagrant ssh
+
+cd /solum
+
+tox -e py27
+
+source .tox/pep8/bin/activate
+
+flake8
 
 -- 
 
