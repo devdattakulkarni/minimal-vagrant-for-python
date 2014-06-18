@@ -12,8 +12,31 @@ But it is too heavy weight and time consuming process if you just want a VM to d
 
 That's why I created this.
 
-Patches welcome.
+Usage:
+------
 
-Author: Devdatta Kulkarni
+git clone 
+cd
+
+# environment variables to map the directories on the host
+# within the VM
+# solum code from your host is mapped to /solum
+# python-solumclient code is mapped to /python-solumclient
+set SOLUM=<path to local solum code>
+set SOLUMCLIENT=<path to local python-solumclient code>
+
+
+vagrant up
+
+vagrant ssh
+
+
+
+Author:
+-------
+Devdatta Kulkarni
+
+
+Patches welcome.
 
 
