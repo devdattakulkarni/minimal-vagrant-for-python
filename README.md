@@ -28,10 +28,11 @@ set SOLUMCLIENT=<path to local python-solumclient code>
 vagrant up
 vagrant ssh
 
-
 Tested with Vagrant 1.6.3 and Virtualbox 4.3.12 r93733
 
+
 Author: Devdatta Kulkarni
+
 
 Patches welcome.
 
