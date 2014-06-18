@@ -1,4 +1,4 @@
-This repository contains a Vagrantfile for helping with Python development.
+This repository contains a Vagrantfile for helping with Python development for Solum.
 
 Specifically, it sets up a Ubuntu 12.04 VM with several Python utilities
 required for OpenStack development (Python 2.7 compiler, tox, python-dev, etc.)
@@ -12,7 +12,9 @@ But it is too heavy weight and time consuming process if you just want a VM to d
 
 That's why I created this.
 
--- Usage -- 
+--
+
+Usage:
 
 git clone https://github.com/devdattakulkarni/minimal-vagrant-for-python.git vagrant-devel
 
@@ -30,9 +32,9 @@ vagrant ssh
 
 Tested with Vagrant 1.6.3 and Virtualbox 4.3.12 r93733
 
+--
 
 Author: Devdatta Kulkarni
-
 
 Patches welcome.
 
