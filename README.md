@@ -12,16 +12,11 @@ But it is too heavy weight and time consuming process if you just want a VM to d
 
 That's why I created this.
 
-Usage:
+-- Usage -- 
 
 git clone https://github.com/devdattakulkarni/minimal-vagrant-for-python.git vagrant-devel
 
 cd vagrant-devel
-
-environment variables to map the directories on the host
-within the VM
-solum code from your host is mapped to /solum
-python-solumclient code is mapped to /python-solumclient
 
 export SOLUM=path to local solum code
 
@@ -30,6 +25,8 @@ export SOLUMCLIENT=path to local python-solumclient code
 vagrant up
 
 vagrant ssh
+
+-- 
 
 Tested with Vagrant 1.6.3 and Virtualbox 4.3.12 r93733
 
