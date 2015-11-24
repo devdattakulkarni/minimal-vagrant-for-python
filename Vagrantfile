@@ -26,7 +26,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "ubuntu-12.04-development"
-  config.vm.box_url = 'http://55e99fc2f9b7a4001bc8-51d789ac964757728410a7d1f622e9af.r39.cf1.rackcdn.com/ubuntu-12.04-amd64-vbox.box'
+  #config.vm.box_url = 'http://55e99fc2f9b7a4001bc8-51d789ac964757728410a7d1f622e9af.r39.cf1.rackcdn.com/ubuntu-12.04-amd64-vbox.box'
+  config.vm.box_url = 'https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box'
 
   #config.vm.customize ["modifyvm", :id, "--name", "solum-development-vm"]
 
